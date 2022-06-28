@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-color:rgba(212, 209, 209, 0.993);
+    display: flex;
+align-items: center;
+justify-content: space-around;
+}
+
+
+.A{
+    height: 600px;
+    width: 450px;
+    background-color:white;
+    position: relative;
+    left: 7%;
+    border-radius: 25px ;
+    /* box-shadow: 1px 6px 10px 18px rgba(199,245,200,1); */
+    box-shadow: 1px 6px 10px 18px rgba(204,245,206,0.75);
+    position: relative;
+    
+    
+}
+
+.A img{
+    height: 200px;
+    position: relative;
+    left: 100px;
+    top: 30px;
+    
+}
+.A h1{
+    font-size: 45px;
+    /* position: relative; */
+    /* left: 20px; */
+}
+.A p{
+    font-size: 25px;
+}
+.A h1,p{
+    position: relative;
+    top: 50px;
+    left: 75px;
+    
+}
+.A button{
+    position: absolute;
+top: 510px;
+height: 60px;
+width: 380px;
+left: 30px;
+background-color: rgb(68, 240, 68);
+font-size: 23px;
+font-weight: 900;
+color: whitesmoke;
+border: none;
+border-radius: 10px;
+
+}
+
+
+.B{
+    height: 600px;
+    width: 450px;
+    background-color: white;
+    position: relative;
+    right: 7%;
+    border-radius: 25px;
+    box-shadow: 1px 6px 10px 18px rgba(245,201,242,0.77);
+}
+
+.B img{
+    height: 200px;
+    /* width: 200px; */
+    position: relative;
+    left: 100px;
+    top: 30px;
+}
+.B button{
+    position: absolute;
+top: 510px;
+height: 60px;
+width: 380px;
+left: 33px;
+background-color: rgb(250, 56, 104);
+font-size: 23px;
+font-weight: 900;
+color: whitesmoke;
+border: none;
+border-radius: 10px;
+
+}
+
+.B h1{
+    font-size: 45px;
+    
+}
+.B p{
+    font-size: 25px;
+}
+.B h1,p{
+    position: relative;
+    top: 50px;
+    left: 75px;}
+
+    @media screen and (max-width:768px) {
+        .container{
+       
+          height: 170vh;
+          width: 100%;
+            display: flex;
+   
+      flex-wrap: wrap;
+        }
+
+        .A{
+            height: 590px;
+            width: 440px;
+            position: relative;
+            left: 3%;
+          
+    
+        
+       }
+
+       .B{
+        height: 590px;
+        width: 440px;
+        position: relative;
+        left: 2.5%;
+      
+       }
+       
+        
+    }
